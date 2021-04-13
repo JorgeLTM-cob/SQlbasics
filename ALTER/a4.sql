@@ -1,0 +1,3 @@
+ALTER TABLE orders
+   ALTER COLUMN created_date
+   SET DATA TYPE TIMESTAMP;
