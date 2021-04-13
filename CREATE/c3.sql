@@ -1,0 +1,9 @@
+CREATE TABLE z2(
+   id INT GENERATED ALWAYS AS IDENTITY
+      (START WITH -1,
+       INCREMENT BY 1,
+       CYCLE,
+       MINVALUE -1,
+       MAXVALUE 2),
+   c2 VARCHAR(10)
+);
