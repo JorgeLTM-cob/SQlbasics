@@ -1,0 +1,5 @@
+TRUNCATE TABLE 
+   books2;
+
+
+--ROLLBACK;

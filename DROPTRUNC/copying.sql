@@ -1,0 +1,3 @@
+CREATE TABLE books2 LIKE books;
+INSERT INTO books2
+SELECT * FROM books;
